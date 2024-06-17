@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
+import {Text, View} from 'react-native'
 
 const Servicios = () => {
-  return (
-    <div>
-      <h1>Servicios</h1>
-      <p>Catálogo de servicios.</p>
-    </div>
-  );
-};
+    return(
+        <View>
+            <Text>Este es el Main</Text>
+        </View>
+    )
+}
 
-export default Servicios;
+export default Servicios

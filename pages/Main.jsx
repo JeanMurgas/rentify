@@ -1,7 +1,7 @@
 import React from "react";
 import {Text, View} from 'react-native'
 
-const Mobiliario = () => {
+const Main = () => {
     return(
         <View>
             <Text>Este es el Main</Text>
@@ -9,4 +9,4 @@ const Mobiliario = () => {
     )
 }
 
-export default Mobiliario
+export default Main

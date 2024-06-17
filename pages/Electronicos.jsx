@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
+import {Text, View} from 'react-native'
 
-const EquiposElectronicos = () => {
-  return (
-    <div>
-      <h1>Equipos Electrónicos</h1>
-      <p>Catálogo de equipos electrónicos.</p>
-    </div>
-  );
-};
+const Electronicos = () => {
+    return(
+        <View>
+            <Text>Este es el Main</Text>
+        </View>
+    )
+}
 
-export default EquiposElectronicos;
+export default Electronicos

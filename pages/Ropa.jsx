@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
+import {Text, View} from 'react-native'
 
 const Ropa = () => {
-  return (
-    <div>
-      <h1>Ropa</h1>
-      <p>Catálogo de ropa.</p>
-    </div>
-  );
-};
+    return(
+        <View>
+            <Text>Este es el Main</Text>
+        </View>
+    )
+}
 
-export default Ropa;
+export default Ropa

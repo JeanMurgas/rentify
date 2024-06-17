@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
+import {Text, View} from 'react-native'
 
 const Ofertas = () => {
-  return (
-    <div>
-      <h1>Ofertas</h1>
-      <p>Información sobre ofertas.</p>
-    </div>
-  );
-};
+    return(
+        <View>
+            <Text>Este es el Main</Text>
+        </View>
+    )
+}
 
-export default Ofertas;
+export default Ofertas

@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
+import {Text, View} from 'react-native'
 
 const Favoritos = () => {
-  return (
-    <div>
-      <h1>Lista de Deseos</h1>
-      <p>sdafslkdaflksdfj</p>
-    </div>
-  );
-};
+    return(
+        <View>
+            <Text>Este es el Main</Text>
+        </View>
+    )
+}
 
-export default Favoritos;
+export default Favoritos

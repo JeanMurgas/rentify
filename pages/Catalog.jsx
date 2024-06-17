@@ -1,13 +1,12 @@
-import React from 'react';
-import { Outlet } from 'react-router-dom';
+import React from "react";
+import {Text, View} from 'react-native'
 
 const Catalog = () => {
-  return (
-    <div>
-      <h1>Catálogo</h1>
-      <Outlet />
-    </div>
-  );
-};
+    return(
+        <View>
+            <Text>Este es el Main</Text>
+        </View>
+    )
+}
 
-export default Catalog;
+export default Catalog
